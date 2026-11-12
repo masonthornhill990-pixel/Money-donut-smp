@@ -172,7 +172,7 @@ public class Effects {
             Snd s = si.next();
             if (s.at <= now) {
                 if (DonutFxClient.config.sounds)
-                    mc.getSoundManager().play(PositionedSoundInstance.master(s.ev, s.pitch, s.vol));
+                    mc.getSoundManager().play(PositionedSoundInstance.ui(s.ev, s.pitch, s.vol));
                 si.remove();
             }
         }
