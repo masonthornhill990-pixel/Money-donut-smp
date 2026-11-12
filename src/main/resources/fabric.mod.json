@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "donutfx",
+  "version": "${version}",
+  "name": "Donut Payment FX",
+  "description": "Epic screen effects when you receive payments.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.donutfx.DonutFxClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
